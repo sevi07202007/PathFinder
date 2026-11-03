@@ -1,24 +1,22 @@
-# Logs
-logs
+# PHP and XAMPP
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.tmp
+*.cache
+php_errors.log
+.htaccess.local
 
-node_modules
-dist
-dist-ssr
-*.local
+# Local configuration
+.env
+.env.*
+!.env.example
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# IDE files
+.vscode/
+.idea/
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.sw?
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
